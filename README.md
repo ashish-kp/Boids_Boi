@@ -19,3 +19,7 @@ This is done in order to learn Ursina, and also probably create some new and int
 ![Alt Text](https://github.com/ashish-kp/Boids_Boi/blob/main/pictures/Boids_2.png)
 
 Here the number of boids is 40, so the fps is comparatively low. 
+
+To do:
+- Reduce complexity as the distance function is called almost 4*(number of boids)^2 times.
+- Maybe attach an invisible sphere with a collider so that the computation load is reduced.  
