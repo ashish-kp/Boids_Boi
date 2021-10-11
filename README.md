@@ -20,9 +20,11 @@ This is done in order to learn Ursina, and also probably create some new and int
 - Couldn't figure out a way to rotate the boids in their direction of motion. Need to work on that.
 
 ### At the beginning:
+The boids are all separate here.
 ![Alt Text](https://github.com/ashish-kp/Boids_Boi/blob/main/pictures/Boids_1.png)
 
 ### After some time:
+The boids have formed individual "flocks". As there are only 40 of them, and their sizes are small, they seem to be really close to each other. 
 ![Alt Text](https://github.com/ashish-kp/Boids_Boi/blob/main/pictures/Boids_2.png)
 
 Here the number of boids is 40, so the fps is comparatively low. 
