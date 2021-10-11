@@ -7,6 +7,13 @@ Please install the Ursina module before running the code. More about that [here]
 
 [Link to his code](https://github.com/beneater/boids)
 
+The premise for this simulation is the following (Please refer the above code too, where it has been explained in a much better way than I am going to here):
+1. Each boid has to remain within some boundary. If it goes beyond a certain distance, the boid has to "turn" back.
+2. There must be a speed limit, and if the boids reach this limit, then their speed must not increase beyond that.
+3. If a boid comes really close to another, then it must be slightly" repelled away so that they don't collide.
+4. Each boid has a visual range, and if there are other boids within this range, then the boid will move towards the centre of mass of the boids within it's visual range.
+5. Also, the boid has to adjust it's speed so that it moves in almost the same speed as the other boids in it's visual range,
+
 This is done in order to learn Ursina, and also probably create some new and interesting simulations.
 
 - As of yet, the code is very inefficient, if the number of boids is increased beyond 20, then it starts getting choppy.
