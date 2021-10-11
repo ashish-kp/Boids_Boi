@@ -13,9 +13,9 @@ This is done in order to learn Ursina, and also probably create some new and int
 - Couldn't figure out a way to rotate the boids in their direction of motion. Need to work on that.
 
 ### At the beginning:
-[!alt text](https://github.com/ashish-kp/Boids_Boi/blob/main/pictures/Boids_1.png)
+![Alt Text](https://github.com/ashish-kp/Boids_Boi/blob/main/pictures/Boids_1.png)
 
 ### After some time:
-[!alt text](https://github.com/ashish-kp/Boids_Boi/blob/main/pictures/Boids_2.png)
+![Alt Text](https://github.com/ashish-kp/Boids_Boi/blob/main/pictures/Boids_2.png)
 
 Here the number of boids is 40, so the fps is comparatively low. 
