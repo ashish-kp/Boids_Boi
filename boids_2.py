@@ -43,7 +43,7 @@ def MoveAway(Ent):
 	for boi in Boids:
 		if Ent != boi:
 			if distance(Ent, boi) < sep_min:
-				move = (Ent.position - boi.position) * SeperationFactor
+				move += (Ent.position - boi.position) * SeperationFactor
 	Ent.vel += move
 
 def MoveTogether(Ent):
