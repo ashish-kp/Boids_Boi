@@ -32,3 +32,9 @@ Here the number of boids is 40, so the fps is comparatively low.
 To do:
 - Reduce complexity as the distance function is called almost 4*(number of boids)^2 times.
 - Maybe attach an invisible sphere with a collider so that the computation load is reduced.  
+
+The same simulation using VPython [here](https://www.glowscript.org/#/user/p.b.ashish786/folder/MyPrograms/program/boids).
+
+It seems to be much more faster in VPython.
+
+If viewing in a mobile, please use the Puffin Browser.
