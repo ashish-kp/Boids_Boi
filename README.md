@@ -1,5 +1,5 @@
 # Boids_Boi
-Trying to replicate (albeit unsuccessfully) the phenomenon of boids using Ursina in a naive manner.
+Trying to replicate (albeit unsuccessfully) the phenomenon of boids using Ursina (and VPython) in a naive manner.
 
 Please install the Ursina module before running the code. More about that [here](https://www.ursinaengine.org/).
 
@@ -32,8 +32,9 @@ Here the number of boids is 40, so the fps is comparatively low.
 To do:
 - Reduce complexity as the distance function is called almost 4*(number of boids)^2 times.
 - Maybe attach an invisible sphere with a collider so that the computation load is reduced.  
+- Also in Glowscript, to learn very basic raycasting or any form of collision detection to detect collisions and reduce complexity.
 
-The same simulation using VPython [here](https://www.glowscript.org/#/user/p.b.ashish786/folder/MyPrograms/program/boids).
+The same simulation using VPython [here](https://www.glowscript.org/#/user/p.b.ashish786/folder/MyPrograms/program/boids). Also added predator boids to it, from which the other boids move away from. The predators don't chase the boids, they just move like regular boids. 
 
 It seems to be much more faster in VPython.
 
