@@ -5,7 +5,7 @@ Please install the Ursina module before running the code. More about that [here]
 
 ## This is an attempt to copy the simulation created by Ben Eater using Vanilla JavaScript
 
-[Link to his code](https://github.com/beneater/boids)
+[Link to his code](https://github.com/beneater/boids) and to his amazing [simulation](https://eater.net/boids)
 
 The premise for this simulation is the following (Please refer the above code too, where it has been explained in a much better way than I am going to here):
 1. Each boid has to remain within some boundary. If it goes beyond a certain distance, the boid has to "turn" back.
