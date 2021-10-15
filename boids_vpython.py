@@ -5,7 +5,8 @@ predators = []
 
 r = 0.2
 l = 0.6
-n = 100
+n = 100 # Number of boids
+p = 3 # Number of predators
 max_speed = 5
 margin = 5
 NudgeFactor = 1
@@ -90,7 +91,7 @@ for i in range(n):
     axis_b = vec((random() * 2 * pi)- pi, (random() * 2 * pi) - pi, (random() * 2 * pi) - pi)
     boids.append(cone(radius = r, length = l, pos = position, axis = axis_b, vel = axis_b.hat * 2, acc = hat(axis_b) * random(), vel = axis_b))
     
-for j in range(5):
+for j in range(p):                                    # Comment this entire loop if u don't want predators
     position = position = vec((random() * margin) - (margin / 2), (random() * margin) - (margin / 2), (random() * margin) - (margin / 2))
     axis_b = vec((random() * 2 * pi)- pi, (random() * 2 * pi) - pi, (random() * 2 * pi) - pi)
     predators.append((cone(radius = 3 * r, length = 3 * l, pos = position, axis = axis_b, color = color.red, vel = axis_b)))
@@ -108,10 +109,10 @@ while True:
         move_together(boid)
         move_away(boid)
         move_equal(boid)
-        run_away(boid)
+        run_away(boid)                               # Comment this line if u don't want predators.
         boid.axis = l * hat(boid.vel)
         boid.pos += boid.vel * dt
-    for pred in predators:
+    for pred in predators:                           # Comment this for loop if u don't want predators.
         Nudge(pred)
         maxspeed(pred)
         move_away(pred)
