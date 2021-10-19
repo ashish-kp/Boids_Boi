@@ -36,7 +36,7 @@ To do:
 
 The same simulation using VPython [here](https://www.glowscript.org/#/user/p.b.ashish786/folder/MyPrograms/program/boids). Also added predator boids to it, from which the other boids move away from. The predators don't chase the boids, they just move like regular boids.
 
-I've implemented a naive "predator boids" [here](https://www.glowscript.org/#/user/p.b.ashish786/folder/MyPrograms/program/boids2)
+I've implemented a naive "predator boids" [here](https://www.glowscript.org/#/user/p.b.ashish786/folder/MyPrograms/program/boids2).
 
 It seems to be much more faster in VPython.
 
